@@ -25,6 +25,7 @@ func MathQuiz(soal, answer int) {
 
 	if is_again == "n" || is_again == "N" {
 		fmt.Println("Terima kasih sudah bermain ya!")
+		panic("Program selesai")
 	}
 
 	if is_again == "y" || is_again == "Y" {
